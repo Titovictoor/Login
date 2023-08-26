@@ -7,3 +7,4 @@ form.addEventListener("submit", (e) => {
   alert("Cadastro concluído!");
   window.location.href = "/Login";
 });
+ 
