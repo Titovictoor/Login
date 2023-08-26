@@ -120,4 +120,34 @@ input::-webkit-inner-spin-button {
   margin-top: 20px;
   color: var(--color-background);
   background-color: var(--color-primary);
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 900px) {
+  .card-recover {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    flex-direction: column;
+  }
+  .left > h1 {
+    display: none;
+  }
+  .left {
+    width: 100%;
+    height: 35vh;
+  }
+  .right {
+    width: 100%;
+    height: auto;
+  }
+  .left-image {
+    width: 60vw;
+  }
+  .card-recover {
+    width: 90vw;
+  }
 }
